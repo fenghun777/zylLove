@@ -7,21 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F481F1A200EE6A000B4F3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F481F19200EE6A000B4F3FF /* AppDelegate.swift */; };
-		7F481F1C200EE6A000B4F3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F481F1B200EE6A000B4F3FF /* ViewController.swift */; };
-		7F481F1F200EE6A000B4F3FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F481F1D200EE6A000B4F3FF /* Main.storyboard */; };
 		7F481F21200EE6A000B4F3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F481F20200EE6A000B4F3FF /* Assets.xcassets */; };
 		7F481F24200EE6A000B4F3FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F481F22200EE6A000B4F3FF /* LaunchScreen.storyboard */; };
+		7F60405320299F16005EB97A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60405220299F16005EB97A /* SignInViewController.swift */; };
+		7F6040552029A04C005EB97A /* prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6040542029A04C005EB97A /* prefix.swift */; };
+		7F75FF2D202883BB000AFAFF /* AudioWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF04202883BB000AFAFF /* AudioWrapper.m */; };
+		7F75FF2E202883BB000AFAFF /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75FF06202883BB000AFAFF /* libmp3lame.a */; };
+		7F75FF2F202883BB000AFAFF /* ThirdParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF07202883BB000AFAFF /* ThirdParty.swift */; };
+		7F75FF30202883BB000AFAFF /* libUMessage_Sdk_1.5.0a.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75FF09202883BB000AFAFF /* libUMessage_Sdk_1.5.0a.a */; };
+		7F75FF31202883BB000AFAFF /* ZyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF0B202883BB000AFAFF /* ZyAppDelegate.swift */; };
+		7F75FF32202883BB000AFAFF /* ZyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF0D202883BB000AFAFF /* ZyConfig.swift */; };
+		7F75FF33202883BB000AFAFF /* ZyNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF0E202883BB000AFAFF /* ZyNotice.swift */; };
+		7F75FF34202883BB000AFAFF /* ZyBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF10202883BB000AFAFF /* ZyBaseViewController.swift */; };
+		7F75FF35202883BB000AFAFF /* ZyImagePickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF11202883BB000AFAFF /* ZyImagePickerViewViewController.swift */; };
+		7F75FF36202883BB000AFAFF /* ZyBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF14202883BB000AFAFF /* ZyBaseModel.swift */; };
+		7F75FF37202883BB000AFAFF /* YgUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF17202883BB000AFAFF /* YgUtils.m */; };
+		7F75FF38202883BB000AFAFF /* ZyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF18202883BB000AFAFF /* ZyApi.swift */; };
+		7F75FF39202883BB000AFAFF /* ZyArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF19202883BB000AFAFF /* ZyArray.swift */; };
+		7F75FF3A202883BB000AFAFF /* ZyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF1A202883BB000AFAFF /* ZyButton.swift */; };
+		7F75FF3B202883BB000AFAFF /* ZyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF1B202883BB000AFAFF /* ZyColor.swift */; };
+		7F75FF3C202883BB000AFAFF /* ZyDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF1C202883BB000AFAFF /* ZyDictionary.swift */; };
+		7F75FF3D202883BB000AFAFF /* ZyEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF1D202883BB000AFAFF /* ZyEncryption.swift */; };
+		7F75FF3E202883BB000AFAFF /* ZyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF1E202883BB000AFAFF /* ZyLabel.swift */; };
+		7F75FF3F202883BB000AFAFF /* ZyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF1F202883BB000AFAFF /* ZyNetwork.swift */; };
+		7F75FF40202883BB000AFAFF /* ZyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF20202883BB000AFAFF /* ZyString.swift */; };
+		7F75FF41202883BB000AFAFF /* ZyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF21202883BB000AFAFF /* ZyTextField.swift */; };
+		7F75FF42202883BB000AFAFF /* ZyTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF22202883BB000AFAFF /* ZyTool.swift */; };
+		7F75FF43202883BB000AFAFF /* ZyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF23202883BB000AFAFF /* ZyUI.swift */; };
+		7F75FF44202883BB000AFAFF /* ZyUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF24202883BB000AFAFF /* ZyUIImage.swift */; };
+		7F75FF45202883BB000AFAFF /* ZyUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF25202883BB000AFAFF /* ZyUIImageView.swift */; };
+		7F75FF46202883BB000AFAFF /* ZyBaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF27202883BB000AFAFF /* ZyBaseTableView.swift */; };
+		7F75FF47202883BB000AFAFF /* ZyBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF28202883BB000AFAFF /* ZyBaseTableViewCell.swift */; };
+		7F75FF48202883BB000AFAFF /* ZyConvertToMp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF29202883BB000AFAFF /* ZyConvertToMp3.swift */; };
+		7F75FF4A202883CA000AFAFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF49202883CA000AFAFF /* AppDelegate.swift */; };
+		7F75FF5E20288A64000AFAFF /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF5D20288A64000AFAFF /* HomePageViewController.swift */; };
+		7F75FF6920288CA8000AFAFF /* ClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF6820288CA8000AFAFF /* ClassifyViewController.swift */; };
+		7F75FF6B20288CC3000AFAFF /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF6A20288CC3000AFAFF /* MineViewController.swift */; };
+		7F75FF6D20288CD9000AFAFF /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75FF6C20288CD9000AFAFF /* OrderViewController.swift */; };
+		EE07573C7D17C6133D0F95AB /* Pods_zylLove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476731DF82EEC1B68F9AF923 /* Pods_zylLove.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31A359845362D1679C4A1C56 /* Pods-zylLove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zylLove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zylLove/Pods-zylLove.debug.xcconfig"; sourceTree = "<group>"; };
+		476731DF82EEC1B68F9AF923 /* Pods_zylLove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zylLove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F481F16200EE6A000B4F3FF /* zylLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zylLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F481F19200EE6A000B4F3FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F481F1B200EE6A000B4F3FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7F481F1E200EE6A000B4F3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F481F20200EE6A000B4F3FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F481F23200EE6A000B4F3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F481F25200EE6A000B4F3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F60405220299F16005EB97A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7F6040542029A04C005EB97A /* prefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prefix.swift; sourceTree = "<group>"; };
+		7F75FEFD202883BB000AFAFF /* zylLove-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zylLove-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F75FF03202883BB000AFAFF /* AudioWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioWrapper.h; sourceTree = "<group>"; };
+		7F75FF04202883BB000AFAFF /* AudioWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioWrapper.m; sourceTree = "<group>"; };
+		7F75FF05202883BB000AFAFF /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		7F75FF06202883BB000AFAFF /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		7F75FF07202883BB000AFAFF /* ThirdParty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdParty.swift; sourceTree = "<group>"; };
+		7F75FF09202883BB000AFAFF /* libUMessage_Sdk_1.5.0a.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.5.0a.a; sourceTree = "<group>"; };
+		7F75FF0A202883BB000AFAFF /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
+		7F75FF0B202883BB000AFAFF /* ZyAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyAppDelegate.swift; sourceTree = "<group>"; };
+		7F75FF0D202883BB000AFAFF /* ZyConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyConfig.swift; sourceTree = "<group>"; };
+		7F75FF0E202883BB000AFAFF /* ZyNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyNotice.swift; sourceTree = "<group>"; };
+		7F75FF10202883BB000AFAFF /* ZyBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyBaseViewController.swift; sourceTree = "<group>"; };
+		7F75FF11202883BB000AFAFF /* ZyImagePickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyImagePickerViewViewController.swift; sourceTree = "<group>"; };
+		7F75FF14202883BB000AFAFF /* ZyBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyBaseModel.swift; sourceTree = "<group>"; };
+		7F75FF16202883BB000AFAFF /* YgUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YgUtils.h; sourceTree = "<group>"; };
+		7F75FF17202883BB000AFAFF /* YgUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YgUtils.m; sourceTree = "<group>"; };
+		7F75FF18202883BB000AFAFF /* ZyApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyApi.swift; sourceTree = "<group>"; };
+		7F75FF19202883BB000AFAFF /* ZyArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyArray.swift; sourceTree = "<group>"; };
+		7F75FF1A202883BB000AFAFF /* ZyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyButton.swift; sourceTree = "<group>"; };
+		7F75FF1B202883BB000AFAFF /* ZyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyColor.swift; sourceTree = "<group>"; };
+		7F75FF1C202883BB000AFAFF /* ZyDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyDictionary.swift; sourceTree = "<group>"; };
+		7F75FF1D202883BB000AFAFF /* ZyEncryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyEncryption.swift; sourceTree = "<group>"; };
+		7F75FF1E202883BB000AFAFF /* ZyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyLabel.swift; sourceTree = "<group>"; };
+		7F75FF1F202883BB000AFAFF /* ZyNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyNetwork.swift; sourceTree = "<group>"; };
+		7F75FF20202883BB000AFAFF /* ZyString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyString.swift; sourceTree = "<group>"; };
+		7F75FF21202883BB000AFAFF /* ZyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyTextField.swift; sourceTree = "<group>"; };
+		7F75FF22202883BB000AFAFF /* ZyTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyTool.swift; sourceTree = "<group>"; };
+		7F75FF23202883BB000AFAFF /* ZyUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyUI.swift; sourceTree = "<group>"; };
+		7F75FF24202883BB000AFAFF /* ZyUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyUIImage.swift; sourceTree = "<group>"; };
+		7F75FF25202883BB000AFAFF /* ZyUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyUIImageView.swift; sourceTree = "<group>"; };
+		7F75FF27202883BB000AFAFF /* ZyBaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyBaseTableView.swift; sourceTree = "<group>"; };
+		7F75FF28202883BB000AFAFF /* ZyBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyBaseTableViewCell.swift; sourceTree = "<group>"; };
+		7F75FF29202883BB000AFAFF /* ZyConvertToMp3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyConvertToMp3.swift; sourceTree = "<group>"; };
+		7F75FF49202883CA000AFAFF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F75FF5D20288A64000AFAFF /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		7F75FF6820288CA8000AFAFF /* ClassifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyViewController.swift; sourceTree = "<group>"; };
+		7F75FF6A20288CC3000AFAFF /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		7F75FF6C20288CD9000AFAFF /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		8ACFA71789DF61CB2E6793EA /* Pods-zylLove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zylLove.release.xcconfig"; path = "Pods/Target Support Files/Pods-zylLove/Pods-zylLove.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +102,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F75FF2E202883BB000AFAFF /* libmp3lame.a in Frameworks */,
+				EE07573C7D17C6133D0F95AB /* Pods_zylLove.framework in Frameworks */,
+				7F75FF30202883BB000AFAFF /* libUMessage_Sdk_1.5.0a.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62B9E1830CCA3CD68DB89E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				476731DF82EEC1B68F9AF923 /* Pods_zylLove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F481F0D200EE6A000B4F3FF = {
 			isa = PBXGroup;
 			children = (
 				7F481F18200EE6A000B4F3FF /* zylLove */,
 				7F481F17200EE6A000B4F3FF /* Products */,
+				F311D1218C3BA8F5FBE4FAB2 /* Pods */,
+				62B9E1830CCA3CD68DB89E9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +140,300 @@
 		7F481F18200EE6A000B4F3FF /* zylLove */ = {
 			isa = PBXGroup;
 			children = (
-				7F481F19200EE6A000B4F3FF /* AppDelegate.swift */,
-				7F481F1B200EE6A000B4F3FF /* ViewController.swift */,
-				7F481F1D200EE6A000B4F3FF /* Main.storyboard */,
 				7F481F20200EE6A000B4F3FF /* Assets.xcassets */,
 				7F481F22200EE6A000B4F3FF /* LaunchScreen.storyboard */,
 				7F481F25200EE6A000B4F3FF /* Info.plist */,
+				7F75FF49202883CA000AFAFF /* AppDelegate.swift */,
+				7F60404E20299EEC005EB97A /* Common */,
+				7F75FF5120288A33000AFAFF /* Classify */,
+				7F75FF5520288A33000AFAFF /* HomePage */,
+				7F75FF4D20288A33000AFAFF /* Mine */,
+				7F75FF5920288A33000AFAFF /* Order */,
+				7F75FEFB202883BB000AFAFF /* Zy_base */,
 			);
 			path = zylLove;
+			sourceTree = "<group>";
+		};
+		7F60404E20299EEC005EB97A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7F60404F20299EEC005EB97A /* Controller */,
+				7F60405020299EEC005EB97A /* Model */,
+				7F60405120299EEC005EB97A /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7F60404F20299EEC005EB97A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F60405220299F16005EB97A /* SignInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F60405020299EEC005EB97A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F60405120299EEC005EB97A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F75FEFB202883BB000AFAFF /* Zy_base */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF0B202883BB000AFAFF /* ZyAppDelegate.swift */,
+				7F6040542029A04C005EB97A /* prefix.swift */,
+				7F75FEFD202883BB000AFAFF /* zylLove-Bridging-Header.h */,
+				7F75FEFE202883BB000AFAFF /* ThirdParty */,
+				7F75FF0C202883BB000AFAFF /* ZyConfig */,
+				7F75FF0F202883BB000AFAFF /* ZyController */,
+				7F75FF12202883BB000AFAFF /* ZyData */,
+				7F75FF13202883BB000AFAFF /* ZyModel */,
+				7F75FF15202883BB000AFAFF /* ZyTool */,
+				7F75FF26202883BB000AFAFF /* ZyView */,
+			);
+			path = Zy_base;
+			sourceTree = "<group>";
+		};
+		7F75FEFE202883BB000AFAFF /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF02202883BB000AFAFF /* lameToMp3 */,
+				7F75FF07202883BB000AFAFF /* ThirdParty.swift */,
+				7F75FF08202883BB000AFAFF /* UMessage_Sdk_1.5.0a */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		7F75FF02202883BB000AFAFF /* lameToMp3 */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF03202883BB000AFAFF /* AudioWrapper.h */,
+				7F75FF04202883BB000AFAFF /* AudioWrapper.m */,
+				7F75FF05202883BB000AFAFF /* lame.h */,
+				7F75FF06202883BB000AFAFF /* libmp3lame.a */,
+			);
+			path = lameToMp3;
+			sourceTree = "<group>";
+		};
+		7F75FF08202883BB000AFAFF /* UMessage_Sdk_1.5.0a */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF09202883BB000AFAFF /* libUMessage_Sdk_1.5.0a.a */,
+				7F75FF0A202883BB000AFAFF /* UMessage.h */,
+			);
+			path = UMessage_Sdk_1.5.0a;
+			sourceTree = "<group>";
+		};
+		7F75FF0C202883BB000AFAFF /* ZyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF0D202883BB000AFAFF /* ZyConfig.swift */,
+				7F75FF0E202883BB000AFAFF /* ZyNotice.swift */,
+			);
+			path = ZyConfig;
+			sourceTree = "<group>";
+		};
+		7F75FF0F202883BB000AFAFF /* ZyController */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF10202883BB000AFAFF /* ZyBaseViewController.swift */,
+				7F75FF11202883BB000AFAFF /* ZyImagePickerViewViewController.swift */,
+			);
+			path = ZyController;
+			sourceTree = "<group>";
+		};
+		7F75FF12202883BB000AFAFF /* ZyData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZyData;
+			sourceTree = "<group>";
+		};
+		7F75FF13202883BB000AFAFF /* ZyModel */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF14202883BB000AFAFF /* ZyBaseModel.swift */,
+			);
+			path = ZyModel;
+			sourceTree = "<group>";
+		};
+		7F75FF15202883BB000AFAFF /* ZyTool */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF16202883BB000AFAFF /* YgUtils.h */,
+				7F75FF17202883BB000AFAFF /* YgUtils.m */,
+				7F75FF18202883BB000AFAFF /* ZyApi.swift */,
+				7F75FF19202883BB000AFAFF /* ZyArray.swift */,
+				7F75FF1A202883BB000AFAFF /* ZyButton.swift */,
+				7F75FF1B202883BB000AFAFF /* ZyColor.swift */,
+				7F75FF1C202883BB000AFAFF /* ZyDictionary.swift */,
+				7F75FF1D202883BB000AFAFF /* ZyEncryption.swift */,
+				7F75FF1E202883BB000AFAFF /* ZyLabel.swift */,
+				7F75FF1F202883BB000AFAFF /* ZyNetwork.swift */,
+				7F75FF20202883BB000AFAFF /* ZyString.swift */,
+				7F75FF21202883BB000AFAFF /* ZyTextField.swift */,
+				7F75FF22202883BB000AFAFF /* ZyTool.swift */,
+				7F75FF23202883BB000AFAFF /* ZyUI.swift */,
+				7F75FF24202883BB000AFAFF /* ZyUIImage.swift */,
+				7F75FF25202883BB000AFAFF /* ZyUIImageView.swift */,
+			);
+			path = ZyTool;
+			sourceTree = "<group>";
+		};
+		7F75FF26202883BB000AFAFF /* ZyView */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF27202883BB000AFAFF /* ZyBaseTableView.swift */,
+				7F75FF28202883BB000AFAFF /* ZyBaseTableViewCell.swift */,
+				7F75FF29202883BB000AFAFF /* ZyConvertToMp3.swift */,
+			);
+			path = ZyView;
+			sourceTree = "<group>";
+		};
+		7F75FF4D20288A33000AFAFF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF4E20288A33000AFAFF /* Controller */,
+				7F75FF4F20288A33000AFAFF /* Model */,
+				7F75FF5020288A33000AFAFF /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		7F75FF4E20288A33000AFAFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF6A20288CC3000AFAFF /* MineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F75FF4F20288A33000AFAFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F75FF5020288A33000AFAFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F75FF5120288A33000AFAFF /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF5220288A33000AFAFF /* Controller */,
+				7F75FF5320288A33000AFAFF /* Model */,
+				7F75FF5420288A33000AFAFF /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		7F75FF5220288A33000AFAFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF6820288CA8000AFAFF /* ClassifyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F75FF5320288A33000AFAFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F75FF5420288A33000AFAFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F75FF5520288A33000AFAFF /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF5620288A33000AFAFF /* Controller */,
+				7F75FF5720288A33000AFAFF /* Model */,
+				7F75FF5820288A33000AFAFF /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		7F75FF5620288A33000AFAFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF5D20288A64000AFAFF /* HomePageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F75FF5720288A33000AFAFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F75FF5820288A33000AFAFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F75FF5920288A33000AFAFF /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF5A20288A33000AFAFF /* Controller */,
+				7F75FF5B20288A33000AFAFF /* Model */,
+				7F75FF5C20288A33000AFAFF /* View */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		7F75FF5A20288A33000AFAFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F75FF6C20288CD9000AFAFF /* OrderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F75FF5B20288A33000AFAFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F75FF5C20288A33000AFAFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F311D1218C3BA8F5FBE4FAB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31A359845362D1679C4A1C56 /* Pods-zylLove.debug.xcconfig */,
+				8ACFA71789DF61CB2E6793EA /* Pods-zylLove.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +443,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F481F28200EE6A000B4F3FF /* Build configuration list for PBXNativeTarget "zylLove" */;
 			buildPhases = (
+				31F0164F197882DA2853632B /* [CP] Check Pods Manifest.lock */,
 				7F481F12200EE6A000B4F3FF /* Sources */,
 				7F481F13200EE6A000B4F3FF /* Frameworks */,
 				7F481F14200EE6A000B4F3FF /* Resources */,
+				A67B8615E19D1E1301C3B463 /* [CP] Embed Pods Frameworks */,
+				CFE3A30FE39A1A4987A6551C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +500,125 @@
 			files = (
 				7F481F24200EE6A000B4F3FF /* LaunchScreen.storyboard in Resources */,
 				7F481F21200EE6A000B4F3FF /* Assets.xcassets in Resources */,
-				7F481F1F200EE6A000B4F3FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31F0164F197882DA2853632B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zylLove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A67B8615E19D1E1301C3B463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zylLove/Pods-zylLove-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zylLove/Pods-zylLove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE3A30FE39A1A4987A6551C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zylLove/Pods-zylLove-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zylLove/Pods-zylLove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F481F12200EE6A000B4F3FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F481F1C200EE6A000B4F3FF /* ViewController.swift in Sources */,
-				7F481F1A200EE6A000B4F3FF /* AppDelegate.swift in Sources */,
+				7F75FF2D202883BB000AFAFF /* AudioWrapper.m in Sources */,
+				7F75FF44202883BB000AFAFF /* ZyUIImage.swift in Sources */,
+				7F75FF6920288CA8000AFAFF /* ClassifyViewController.swift in Sources */,
+				7F75FF3F202883BB000AFAFF /* ZyNetwork.swift in Sources */,
+				7F75FF31202883BB000AFAFF /* ZyAppDelegate.swift in Sources */,
+				7F75FF4A202883CA000AFAFF /* AppDelegate.swift in Sources */,
+				7F75FF3E202883BB000AFAFF /* ZyLabel.swift in Sources */,
+				7F75FF47202883BB000AFAFF /* ZyBaseTableViewCell.swift in Sources */,
+				7F6040552029A04C005EB97A /* prefix.swift in Sources */,
+				7F75FF41202883BB000AFAFF /* ZyTextField.swift in Sources */,
+				7F75FF40202883BB000AFAFF /* ZyString.swift in Sources */,
+				7F75FF46202883BB000AFAFF /* ZyBaseTableView.swift in Sources */,
+				7F75FF36202883BB000AFAFF /* ZyBaseModel.swift in Sources */,
+				7F75FF48202883BB000AFAFF /* ZyConvertToMp3.swift in Sources */,
+				7F75FF34202883BB000AFAFF /* ZyBaseViewController.swift in Sources */,
+				7F75FF3A202883BB000AFAFF /* ZyButton.swift in Sources */,
+				7F75FF6D20288CD9000AFAFF /* OrderViewController.swift in Sources */,
+				7F75FF33202883BB000AFAFF /* ZyNotice.swift in Sources */,
+				7F75FF37202883BB000AFAFF /* YgUtils.m in Sources */,
+				7F75FF5E20288A64000AFAFF /* HomePageViewController.swift in Sources */,
+				7F75FF2F202883BB000AFAFF /* ThirdParty.swift in Sources */,
+				7F75FF35202883BB000AFAFF /* ZyImagePickerViewViewController.swift in Sources */,
+				7F75FF42202883BB000AFAFF /* ZyTool.swift in Sources */,
+				7F75FF3B202883BB000AFAFF /* ZyColor.swift in Sources */,
+				7F75FF3D202883BB000AFAFF /* ZyEncryption.swift in Sources */,
+				7F75FF6B20288CC3000AFAFF /* MineViewController.swift in Sources */,
+				7F75FF38202883BB000AFAFF /* ZyApi.swift in Sources */,
+				7F75FF39202883BB000AFAFF /* ZyArray.swift in Sources */,
+				7F75FF3C202883BB000AFAFF /* ZyDictionary.swift in Sources */,
+				7F60405320299F16005EB97A /* SignInViewController.swift in Sources */,
+				7F75FF45202883BB000AFAFF /* ZyUIImageView.swift in Sources */,
+				7F75FF43202883BB000AFAFF /* ZyUI.swift in Sources */,
+				7F75FF32202883BB000AFAFF /* ZyConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7F481F1D200EE6A000B4F3FF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F481F1E200EE6A000B4F3FF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F481F22200EE6A000B4F3FF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +739,57 @@
 		};
 		7F481F29200EE6A000B4F3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A359845362D1679C4A1C56 /* Pods-zylLove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NP8U29SES3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zylLove/Zy_base/ThirdParty/Ali",
+				);
 				INFOPLIST_FILE = zylLove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zyl.zylLove;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zylLove/Zy_base/ThirdParty/lameToMp3",
+					"$(PROJECT_DIR)/zylLove/Zy_base/ThirdParty/UMessage_Sdk_1.5.0a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zylLove.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/work/work/zylLove/zylLove/Zy_base/zylLove-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7F481F2A200EE6A000B4F3FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ACFA71789DF61CB2E6793EA /* Pods-zylLove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NP8U29SES3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zylLove/Zy_base/ThirdParty/Ali",
+				);
 				INFOPLIST_FILE = zylLove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zyl.zylLove;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zylLove/Zy_base/ThirdParty/lameToMp3",
+					"$(PROJECT_DIR)/zylLove/Zy_base/ThirdParty/UMessage_Sdk_1.5.0a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zylLove.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/work/work/zylLove/zylLove/Zy_base/zylLove-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
