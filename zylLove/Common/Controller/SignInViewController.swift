@@ -15,7 +15,7 @@ class SignInViewController: ZyBaseViewController {
 
         // Do any additional setup after loading the view.
         
-        let lblSign:UILabel = UILabel.initWith(title: "熟练度附近sdddf123123", font: 18, color: UIColor.white, bgColor: UIColor.brown, radius: 5);
+        let lblSign:UILabel = UILabel.initWith(title: "---", font: 18, color: UIColor.white, bgColor: UIColor.brown, radius: 5);
         self.view.addSubview(lblSign);
         lblSign.snp.makeConstraints { (make) in
             make.center.equalTo(self.view);
